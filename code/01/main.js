@@ -9,5 +9,4 @@ function greetUser(user) {
   return `Hello, ${user.name}!`;
 }
 
-// 関数の利用
-console.log(greetUser({ firstName: "Charlie" }));  // 出力: Hello, undefined!
+console.log(greetUser({ firstName: "Charlie" }));

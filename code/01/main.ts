@@ -12,13 +12,12 @@ console.log(add(5, "10"));
 // ②開発体験の向上
 interface User {
   name: string;
-  age?: number; // オプショナルプロパティ
+  age?: number; 
 }
 
 function greetUser(user: User): string {
   return `Hello, ${user.name}!`;
 }
 
-// 関数の利用
 console.log(greetUser({ firstName: "Charlie" }));
-// コンパイルエラー: 型 '{ firstName: string; }' を型 'User' に割り当てることはできません。
+

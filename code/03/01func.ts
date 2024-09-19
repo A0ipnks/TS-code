@@ -1,16 +1,20 @@
 // 関数宣言
-function 関数名(引数: 型, 引数: 型,): 返り値の型 {
-  return;
+function greet(name: string): string {
+  return `こんにちは、${name}さん！`;
 }
-
-
+  
+console.log(greet("太郎")); 
 
 // 関数式
-const 関数名 = function (引数: 型, 引数: 型,): 返り値の型 {
-  return;
-}
+const greet = function (name: string): string {
+  return `こんにちは、${name}さん！`;
+};
+
+console.log(greet("花子"));
 
 // アロー関数
-const 関数名 = (引数: 型, 引数: 型,): 返り値の型 {
-  return;
-}
+const greet = (name: string): string => {
+  return `こんにちは、${name}さん！`;
+};
+
+console.log(greet("一郎")); 
